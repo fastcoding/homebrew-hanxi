@@ -3,7 +3,8 @@ require 'formula'
 class Opencv < Formula
   homepage 'http://opencv.org/'
   url 'https://github.com/Itseez/opencv/archive/2.4.9.tar.gz'
-  sha1 'd16ced627db17f9864c681545f18f030c7a4cc0b'
+#  sha1 'd16ced627db17f9864c681545f18f030c7a4cc0b'
+  sha256 'faac2e6dd84aef5e03b543d98d72410b4e244be9ef7a60f9ba3c7d9b4935ddf5'
   head 'https://github.com/Itseez/opencv.git'
 
   option "32-bit"
@@ -21,7 +22,7 @@ class Opencv < Formula
   depends_on "eigen"      => :recommended
   depends_on "jasper"
   depends_on "jpeg"
-  depends_on :libpng
+  depends_on "libpng"
   depends_on "libtiff"
   depends_on "numpy"      => :python
   depends_on "openexr"    => :recommended

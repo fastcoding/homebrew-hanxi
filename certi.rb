@@ -8,7 +8,7 @@ class Certi < Formula
   homepage ""
   url "http://download.savannah.gnu.org/releases/certi/CERTI-3.4.3-Source.tar.gz"
   version "3.4.3"
-  sha1 "d16ced627db17f9864c681545f18f030c7a4cc0b"
+  sha256 "d16ced627db17f9864c681545f18f030c7a4cc0b"
   depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
 
